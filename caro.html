@@ -218,7 +218,7 @@
       }
       
       currentPlayer = 3 - player;
-      setStatus(`${playerName(currentPlayer)} đến nước. (${moveStack.length} nước đã đi)`);
+      setStatus(`${playerName(currentPlayer)} đến lượt. (${moveStack.length} nước đã đi)`);
       
       if(!gameOver && modeSelect.value==='pve' && currentPlayer===2){
         setTimeout(()=> aiMove(), 220);
@@ -383,5 +383,6 @@
   </script>
 </body>
 </html>
+
 
 
